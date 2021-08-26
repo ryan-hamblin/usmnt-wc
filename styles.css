@@ -1,42 +1,56 @@
-body{
-	text-align: center;
-	background-size: cover;
-	background-image: url(assets/force-awakens.jpg);
-  font-family: Helvetica;
+body {
+  text-align: center;
+  background-size: cover;
+  font-family: courier, arial, helvetica;
   font-weight: 100;
+  background-image: url("./assets/07ussoccer-mediumSquareAt3X.jpg");
 }
 
-h1{
-  color: #d10000;
+.content {
+  background-color: rgba(255, 255, 255, 0.6);
+  padding-top: 10px;
+  margin: 0;
+  width: 100%;
+}
+
+#clockdiv {
+  color: #fff;
+  display: inline-block;
   font-weight: 100;
-  font-size: 40px;
-  margin: 40px 0px 20px;
+  text-align: center;
+  font-size: 30px;
 }
 
-#clockdiv{
-	font-family: Helvetica;
-	color: #fff;
-	display: inline-block;
-	font-weight: 100;
-	text-align: center;
-	font-size: 30px;
+#clockdiv > div {
+  padding: 10px;
+  border-radius: 3px;
+  background: #333333;
+  display: inline-block;
 }
 
-#clockdiv > div{
-	padding: 10px;
-	border-radius: 3px;
-	background: #333333;
-	display: inline-block;
+#clockdiv div > span {
+  padding: 15px;
+  border-radius: 3px;
+  background: #4a4a4a;
+  display: inline-block;
 }
 
-#clockdiv div > span{
-	padding: 15px;
-	border-radius: 3px;
-	background: #4a4a4a;
-	display: inline-block;
+.smalltext {
+  padding-top: 5px;
+  font-size: 16px;
 }
 
-.smalltext{
-	padding-top: 5px;
-	font-size: 16px;
+.headline {
+  flex-direction: column;
+  font-size: 45px;
+  font-weight: 600;
+  color: black;
+}
+
+.redText {
+  color: #b31942;
+}
+
+.blueText {
+  color: #3c3b6e;
 }
